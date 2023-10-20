@@ -1,4 +1,4 @@
-# Author Vihaan and Akshata
+# Authors Vihaan and Akshata
 import random as bat
 import getpass as gp 
 while (1):
@@ -6,7 +6,7 @@ while (1):
 
   GameList = ["Rock", "Paper", "Scissor"]
   #you have to like make coiches that can be picked and say if they won or not.
-  Player1_pick = gp.getpass(
+  Player1s_pick = gp.getpass(
       prompt=
       '\nPlayer1,Please select rock,paper or scissors\n Enter Exit if you get bored\n'
   ).upper()  # u can type any rock, Rock, RoCk.etc...
@@ -29,7 +29,7 @@ while (1):
     if (Player2s_pick == "Scissor".upper()):
       print("Player1 wins!!!Hurray!!!!Yay!!!")
     if (Player2s_pick == "Paper".upper()): 
-      print("Player2 wins"):
+      print("Player2 wins")
   elif (Player1s_pick == "Paper".upper()):
     if (Player2s_pick == "Scissor".upper()):
       print("Player2 wins!!!!")
@@ -38,7 +38,7 @@ while (1):
 
   elif (Player1s_pick == "Scissor".upper()):
     if (Player2s_pick == "Rock".upper()):
-      print("Player2 wins!"):
+      print("Player2 wins!")
     if (Player2s_pick == "Paper"):
       print("Player1!!The winner!!")
   print("\nStart new round")  #and this is to start a new round
