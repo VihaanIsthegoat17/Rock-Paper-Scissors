@@ -1,6 +1,6 @@
 # Author Vihaan and Akshata
 import random as bat
-import getpass as gp
+import getpass as gp 
 while (1):
   #List the choices like rock , paper and scissors
 
