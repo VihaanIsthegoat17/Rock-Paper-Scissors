@@ -1,6 +1,4 @@
-#what ?? : it is a package: it is importing : loading
-#Why ??: because some packages are in different python files
-#How?? : with syntax "import"
+# Author Vihaan and Akshata
 import random as bat
 import getpass as gp
 while (1):
